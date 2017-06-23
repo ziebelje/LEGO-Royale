@@ -10,6 +10,6 @@ for %%i IN ("%model%/360/Frames/*.png") do (
 
 echo ---------------
 echo Creating GIF...
-convert -delay 4.8 -loop 0 -alpha set -dispose previous "%model%/360/tmp/*.png" "%model%/%model% 360.gif"
+convert -delay 2.4 -loop 0 -alpha set -dispose previous "%model%/360/tmp/*.png" "%model%/%model% 360.gif"
 
 rmdir "%model%/360/tmp" /s /q
